@@ -1,0 +1,23 @@
+/* Color palette from https://brand.utk.edu/standards/colors/ */
+
+:root {
+    --ut-orange: #FF8200;
+    --smokey: #58595B;
+    --smokeyx: #333333;
+    --torch: #E65933;
+    --sunsphere: #FED535;
+    --eureka: #EBEA64;
+    --switchgrass: #ABC178;
+    --legacy: #579584;
+    --valley: #00746F;
+    --globe: #006C93;
+    --river: #517C96;
+    --summitt: #B9E1E2;
+    --fountain: #2197A9;
+    --regalia: #754A7E;
+    --leconte: #8D2048;
+    --energy: #EE3E80;
+    --limestone: #F0EDE3;
+    --rock: #A7A9AC;
+    --buckskin: #705550;
+}
