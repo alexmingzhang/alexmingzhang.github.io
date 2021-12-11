@@ -14,10 +14,30 @@ h1, h2, h3, p {
     margin: 0;
 }
 
+a {
+    text-decoration: unset;
+    color: unset;
+}
+
 #big-orange-id-line {
     width: 100%;
     height: 6px;
     background-color: var(--ut-orange);
+}
+
+#big-home-button {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+
+    border: 0.2em dashed rgba(0, 0, 0, 0);
+
+    transition: 250ms;
+}
+
+#big-home-button:hover {
+    border-radius: 100%;
+    border: 0.2em dashed var(--smokeyx);
 }
 
 #header {
@@ -33,7 +53,7 @@ h1, h2, h3, p {
     font-weight: 300;
 }
 
-#body {
+#main {
     margin: auto;
 }
 
