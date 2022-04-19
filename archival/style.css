@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    text-align: center;
+
+    background-color: var(--limestone);
+    color: var(--smokeyx);
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+p {
+    font-size: 100%;
+}
+
+sup {
+    font-size: 75%;
+}
+
+.cite {
+    font-size: 75%;
+    text-align: left;
+}
+
+#header {
+    margin: 2em 10% 2em 10%;
+}
+
+#header p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+#date {
+    font-style: normal;
+    font-size: 75%;
+    font-weight: normal;
+}
+
+#cool {
+    margin: auto;
+    width: 85%;
+
+    border-collapse: separate; 
+    border-spacing: 1em 3em;
+
+}
+
+#cool tr {
+    
+}
+
+#cool tr th {
+    width: 35%;
+}
+
+#cool tr th h3 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+#cool tr th h5 {
+    font-weight: normal;
+}
+
+#cool tr th img {
+    border-radius: 0.5em;
+    width: 15em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#cool tr td {
+    font-size: 95%;
+    text-align: justify;
+}
+
+#cool tr td ol {
+    font-size: 80%;
+}
+
+#bibliography {
+    margin: 2em 20% 2em 20%;
+}
+
+#bibliography h3{
+    margin-bottom: 1em;
+}
+
+#bibliography p {
+    text-align: left;
+    font-size: 80%;
+    margin-bottom: 0.8em;
+}
+
+#footer{
+    font-size: 80%;
+    margin-bottom: 1em;
+}
+
+#footer a {
+    color: var(--smokeyx);
+    text-decoration: none;
+    transition: 250ms;
+}
+
+#footer a:hover {
+    color: var(--globe);
+}
